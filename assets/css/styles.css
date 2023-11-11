@@ -10,23 +10,32 @@ html body {
   max-height: 100vh;
   margin: 0;
   padding: 0;
-  background-color: hsl(0, 0%, 100%);
+  background-color: hsl(210, 46%, 95%);
 }
 
+#testimonials {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
 #testimonials main .regions {
   display: flex;
   align-items: center;
+  gap: 20px;
 }
 #testimonials main .regions .first-region {
   display: flex;
   align-items: center;
   flex-direction: column;
+  gap: 20px;
 }
 #testimonials main .regions .first-region .first-region-first-line {
   display: flex;
   align-items: center;
+  gap: 20px;
 }
 #testimonials main .regions .first-region .first-region-second-line {
   display: flex;
   align-items: center;
+  gap: 20px;
 }/*# sourceMappingURL=styles.css.map */

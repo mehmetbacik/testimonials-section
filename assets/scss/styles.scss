@@ -9,22 +9,28 @@ html {
         max-height: 100vh;
         margin: 0;
         padding: 0;
-        background-color: $white;
+        background-color: $light-grayish-blue;
     }
 }
 
 #testimonials {
+    height: 100%;
+    @include d-flex;
     main {
         .regions {
             @include d-flex;
+            gap: 20px;
             .first-region {
                 @include d-flex;
                 flex-direction: column;
+                gap: 20px;
                 .first-region-first-line {
                     @include d-flex;
+                    gap: 20px;
                 }
                 .first-region-second-line {
                     @include d-flex;
+                    gap: 20px;
                 }
             }
         }
