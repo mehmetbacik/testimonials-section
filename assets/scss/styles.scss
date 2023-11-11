@@ -12,3 +12,21 @@ html {
         background-color: $white;
     }
 }
+
+#testimonials {
+    main {
+        .regions {
+            @include d-flex;
+            .first-region {
+                @include d-flex;
+                flex-direction: column;
+                .first-region-first-line {
+                    @include d-flex;
+                }
+                .first-region-second-line {
+                    @include d-flex;
+                }
+            }
+        }
+    }
+}
