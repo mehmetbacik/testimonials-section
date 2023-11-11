@@ -34,8 +34,143 @@ html body {
   align-items: center;
   gap: 20px;
 }
+#testimonials main .regions .first-region .first-region-first-line .first-line-left .content {
+  display: flex;
+  align-items: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 15px;
+}
+#testimonials main .regions .first-region .first-region-first-line .first-line-left .content .content-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+#testimonials main .regions .first-region .first-region-first-line .first-line-left .content .content-header .image img {
+  border-radius: 100%;
+}
+#testimonials main .regions .first-region .first-region-first-line .first-line-left .content .content-header .detail {
+  display: flex;
+  align-items: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+#testimonials main .regions .first-region .first-region-first-line .first-line-left .content .content-main p {
+  margin-bottom: 0;
+}
+#testimonials main .regions .first-region .first-region-first-line .first-line-left .content .content-footer p {
+  margin-bottom: 0;
+}
+#testimonials main .regions .first-region .first-region-first-line .first-line-right .content {
+  display: flex;
+  align-items: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 15px;
+}
+#testimonials main .regions .first-region .first-region-first-line .first-line-right .content .content-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+#testimonials main .regions .first-region .first-region-first-line .first-line-right .content .content-header .image img {
+  border-radius: 100%;
+}
+#testimonials main .regions .first-region .first-region-first-line .first-line-right .content .content-header .detail {
+  display: flex;
+  align-items: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+#testimonials main .regions .first-region .first-region-first-line .first-line-right .content .content-main p {
+  margin-bottom: 0;
+}
+#testimonials main .regions .first-region .first-region-first-line .first-line-right .content .content-footer p {
+  margin-bottom: 0;
+}
 #testimonials main .regions .first-region .first-region-second-line {
   display: flex;
   align-items: center;
   gap: 20px;
+}
+#testimonials main .regions .first-region .first-region-second-line .second-line-left .content {
+  display: flex;
+  align-items: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 15px;
+}
+#testimonials main .regions .first-region .first-region-second-line .second-line-left .content .content-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+#testimonials main .regions .first-region .first-region-second-line .second-line-left .content .content-header .image img {
+  border-radius: 100%;
+}
+#testimonials main .regions .first-region .first-region-second-line .second-line-left .content .content-header .detail {
+  display: flex;
+  align-items: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+#testimonials main .regions .first-region .first-region-second-line .second-line-left .content .content-main p {
+  margin-bottom: 0;
+}
+#testimonials main .regions .first-region .first-region-second-line .second-line-left .content .content-footer p {
+  margin-bottom: 0;
+}
+#testimonials main .regions .first-region .first-region-second-line .second-line-right .content {
+  display: flex;
+  align-items: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 15px;
+}
+#testimonials main .regions .first-region .first-region-second-line .second-line-right .content .content-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+#testimonials main .regions .first-region .first-region-second-line .second-line-right .content .content-header .image img {
+  border-radius: 100%;
+}
+#testimonials main .regions .first-region .first-region-second-line .second-line-right .content .content-header .detail {
+  display: flex;
+  align-items: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+#testimonials main .regions .first-region .first-region-second-line .second-line-right .content .content-main p {
+  margin-bottom: 0;
+}
+#testimonials main .regions .first-region .first-region-second-line .second-line-right .content .content-footer p {
+  margin-bottom: 0;
+}
+#testimonials main .regions .second-region .content {
+  display: flex;
+  align-items: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 15px;
+}
+#testimonials main .regions .second-region .content .content-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+#testimonials main .regions .second-region .content .content-header .image img {
+  border-radius: 100%;
+}
+#testimonials main .regions .second-region .content .content-header .detail {
+  display: flex;
+  align-items: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+#testimonials main .regions .second-region .content .content-main p {
+  margin-bottom: 0;
+}
+#testimonials main .regions .second-region .content .content-footer p {
+  margin-bottom: 0;
 }/*# sourceMappingURL=styles.css.map */

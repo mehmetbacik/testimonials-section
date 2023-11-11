@@ -27,10 +27,170 @@ html {
                 .first-region-first-line {
                     @include d-flex;
                     gap: 20px;
+                    .first-line-left {
+                        .content {
+                            @include d-flex;
+                            align-items: flex-start;
+                            flex-direction: column;
+                            gap: 15px;
+                            .content-header {
+                                @include d-flex;
+                                gap: 20px;
+                                .image {
+                                    img {
+                                        border-radius: 100%;
+                                    }
+                                }
+                                .detail {
+                                    @include d-flex;
+                                    align-items: flex-start;
+                                    flex-direction: column;
+                                }
+                            }
+                            .content-main {
+                                p {
+                                    margin-bottom: 0;
+                                }
+                            }
+                            .content-footer {
+                                p {
+                                    margin-bottom: 0;
+                                }
+                            }
+                        }
+                    }
+                    .first-line-right {
+                        .content {
+                            @include d-flex;
+                            align-items: flex-start;
+                            flex-direction: column;
+                            gap: 15px;
+                            .content-header {
+                                @include d-flex;
+                                gap: 20px;
+                                .image {
+                                    img {
+                                        border-radius: 100%;
+                                    }
+                                }
+                                .detail {
+                                    @include d-flex;
+                                    align-items: flex-start;
+                                    flex-direction: column;
+                                }
+                            }
+                            .content-main {
+                                p {
+                                    margin-bottom: 0;
+                                }
+                            }
+                            .content-footer {
+                                p {
+                                    margin-bottom: 0;
+                                }
+                            }
+                        }
+                    }
                 }
                 .first-region-second-line {
                     @include d-flex;
                     gap: 20px;
+                    .second-line-left {
+                        .content {
+                            @include d-flex;
+                            align-items: flex-start;
+                            flex-direction: column;
+                            gap: 15px;
+                            .content-header {
+                                @include d-flex;
+                                gap: 20px;
+                                .image {
+                                    img {
+                                        border-radius: 100%;
+                                    }
+                                }
+                                .detail {
+                                    @include d-flex;
+                                    align-items: flex-start;
+                                    flex-direction: column;
+                                }
+                            }
+                            .content-main {
+                                p {
+                                    margin-bottom: 0;
+                                }
+                            }
+                            .content-footer {
+                                p {
+                                    margin-bottom: 0;
+                                }
+                            }
+                        }
+                    }
+                    .second-line-right {
+                        .content {
+                            @include d-flex;
+                            align-items: flex-start;
+                            flex-direction: column;
+                            gap: 15px;
+                            .content-header {
+                                @include d-flex;
+                                gap: 20px;
+                                .image {
+                                    img {
+                                        border-radius: 100%;
+                                    }
+                                }
+                                .detail {
+                                    @include d-flex;
+                                    align-items: flex-start;
+                                    flex-direction: column;
+                                }
+                            }
+                            .content-main {
+                                p {
+                                    margin-bottom: 0;
+                                }
+                            }
+                            .content-footer {
+                                p {
+                                    margin-bottom: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .second-region {
+                .content {
+                    @include d-flex;
+                    align-items: flex-start;
+                    flex-direction: column;
+                    gap: 15px;
+                    .content-header {
+                        @include d-flex;
+                        gap: 20px;
+                        .image {
+                            img {
+                                border-radius: 100%;
+                            }
+                        }
+                        .detail {
+                            @include d-flex;
+                            align-items: flex-start;
+                            flex-direction: column;
+                        }
+                    }
+                    .content-main {
+                        p {
+                            margin-bottom: 0;
+                        }
+                    }
+                    .content-footer {
+                        p {
+                            margin-bottom: 0;
+                        }
+                    }
                 }
             }
         }
