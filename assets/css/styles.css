@@ -49,10 +49,13 @@ html body {
 #testimonials main .regions .first-region .first-region-first-line .first-line-left .content .content-header {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 15px;
 }
 #testimonials main .regions .first-region .first-region-first-line .first-line-left .content .content-header .image img {
   border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  border: solid 2px hsl(0, 0%, 81%);
 }
 #testimonials main .regions .first-region .first-region-first-line .first-line-left .content .content-header .detail {
   display: flex;
@@ -60,11 +63,26 @@ html body {
   align-items: flex-start;
   flex-direction: column;
 }
+#testimonials main .regions .first-region .first-region-first-line .first-line-left .content .content-header .detail .name {
+  font-size: 15px;
+  color: hsl(0, 0%, 100%);
+}
+#testimonials main .regions .first-region .first-region-first-line .first-line-left .content .content-header .detail .title {
+  color: hsl(0, 0%, 81%);
+}
 #testimonials main .regions .first-region .first-region-first-line .first-line-left .content .content-main p {
   margin-bottom: 0;
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+  font-size: 25px;
+  line-height: normal;
 }
 #testimonials main .regions .first-region .first-region-first-line .first-line-left .content .content-footer p {
   margin-bottom: 0;
+  color: hsl(0, 0%, 81%);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: normal;
 }
 #testimonials main .regions .first-region .first-region-first-line .first-line-right .content {
   display: flex;
@@ -80,10 +98,13 @@ html body {
 #testimonials main .regions .first-region .first-region-first-line .first-line-right .content .content-header {
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 15px;
 }
 #testimonials main .regions .first-region .first-region-first-line .first-line-right .content .content-header .image img {
   border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  border: solid 2px hsl(0, 0%, 81%);
 }
 #testimonials main .regions .first-region .first-region-first-line .first-line-right .content .content-header .detail {
   display: flex;
@@ -116,10 +137,13 @@ html body {
 #testimonials main .regions .first-region .first-region-second-line .second-line-left .content .content-header {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 15px;
 }
 #testimonials main .regions .first-region .first-region-second-line .second-line-left .content .content-header .image img {
   border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  border: solid 2px hsl(0, 0%, 81%);
 }
 #testimonials main .regions .first-region .first-region-second-line .second-line-left .content .content-header .detail {
   display: flex;
@@ -147,10 +171,13 @@ html body {
 #testimonials main .regions .first-region .first-region-second-line .second-line-right .content .content-header {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 15px;
 }
 #testimonials main .regions .first-region .first-region-second-line .second-line-right .content .content-header .image img {
   border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  border: solid 2px hsl(0, 0%, 81%);
 }
 #testimonials main .regions .first-region .first-region-second-line .second-line-right .content .content-header .detail {
   display: flex;
@@ -181,10 +208,13 @@ html body {
 #testimonials main .regions .second-region .content .content-header {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 15px;
 }
 #testimonials main .regions .second-region .content .content-header .image img {
   border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  border: solid 2px hsl(0, 0%, 81%);
 }
 #testimonials main .regions .second-region .content .content-header .detail {
   display: flex;
