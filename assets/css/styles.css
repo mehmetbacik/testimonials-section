@@ -21,18 +21,19 @@ html body {
 #testimonials main .regions {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
 }
 #testimonials main .regions .first-region {
   display: flex;
   align-items: center;
   flex-direction: column;
-  gap: 20px;
+  gap: 30px;
+  flex-basis: 80%;
 }
 #testimonials main .regions .first-region .first-region-first-line {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
 }
 #testimonials main .regions .first-region .first-region-first-line .first-line-left .content {
   display: flex;
@@ -40,6 +41,10 @@ html body {
   align-items: flex-start;
   flex-direction: column;
   gap: 15px;
+  background-color: hsl(263, 55%, 52%);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 25px;
+  border-radius: 10px;
 }
 #testimonials main .regions .first-region .first-region-first-line .first-line-left .content .content-header {
   display: flex;
@@ -67,11 +72,15 @@ html body {
   align-items: flex-start;
   flex-direction: column;
   gap: 15px;
+  background-color: hsl(217, 19%, 35%);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 25px;
+  border-radius: 10px;
 }
 #testimonials main .regions .first-region .first-region-first-line .first-line-right .content .content-header {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
 }
 #testimonials main .regions .first-region .first-region-first-line .first-line-right .content .content-header .image img {
   border-radius: 100%;
@@ -91,7 +100,7 @@ html body {
 #testimonials main .regions .first-region .first-region-second-line {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
 }
 #testimonials main .regions .first-region .first-region-second-line .second-line-left .content {
   display: flex;
@@ -99,6 +108,10 @@ html body {
   align-items: flex-start;
   flex-direction: column;
   gap: 15px;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 25px;
+  border-radius: 10px;
 }
 #testimonials main .regions .first-region .first-region-second-line .second-line-left .content .content-header {
   display: flex;
@@ -126,6 +139,10 @@ html body {
   align-items: flex-start;
   flex-direction: column;
   gap: 15px;
+  background-color: hsl(219, 29%, 14%);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 25px;
+  border-radius: 10px;
 }
 #testimonials main .regions .first-region .first-region-second-line .second-line-right .content .content-header {
   display: flex;
@@ -147,12 +164,19 @@ html body {
 #testimonials main .regions .first-region .first-region-second-line .second-line-right .content .content-footer p {
   margin-bottom: 0;
 }
+#testimonials main .regions .second-region {
+  flex-basis: 20%;
+}
 #testimonials main .regions .second-region .content {
   display: flex;
   align-items: center;
   align-items: flex-start;
   flex-direction: column;
   gap: 15px;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 25px;
+  border-radius: 10px;
 }
 #testimonials main .regions .second-region .content .content-header {
   display: flex;

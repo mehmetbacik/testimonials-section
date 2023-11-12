@@ -19,20 +19,25 @@ html {
     main {
         .regions {
             @include d-flex;
-            gap: 20px;
+            gap: 30px;
             .first-region {
                 @include d-flex;
                 flex-direction: column;
-                gap: 20px;
+                gap: 30px;
+                flex-basis: 80%;
                 .first-region-first-line {
                     @include d-flex;
-                    gap: 20px;
+                    gap: 30px;
                     .first-line-left {
                         .content {
                             @include d-flex;
                             align-items: flex-start;
                             flex-direction: column;
                             gap: 15px;
+                            background-color: $moderate-violet;
+                            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+                            padding: 25px;
+                            border-radius: 10px;
                             .content-header {
                                 @include d-flex;
                                 gap: 20px;
@@ -65,9 +70,13 @@ html {
                             align-items: flex-start;
                             flex-direction: column;
                             gap: 15px;
+                            background-color: $very-dark-grayish-blue;
+                            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+                            padding: 25px;
+                            border-radius: 10px;
                             .content-header {
                                 @include d-flex;
-                                gap: 20px;
+                                gap: 30px;
                                 .image {
                                     img {
                                         border-radius: 100%;
@@ -94,13 +103,17 @@ html {
                 }
                 .first-region-second-line {
                     @include d-flex;
-                    gap: 20px;
+                    gap: 30px;
                     .second-line-left {
                         .content {
                             @include d-flex;
                             align-items: flex-start;
                             flex-direction: column;
                             gap: 15px;
+                            background-color: $white;
+                            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+                            padding: 25px;
+                            border-radius: 10px;
                             .content-header {
                                 @include d-flex;
                                 gap: 20px;
@@ -133,6 +146,10 @@ html {
                             align-items: flex-start;
                             flex-direction: column;
                             gap: 15px;
+                            background-color: $very-dark-blackish-blue;
+                            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+                            padding: 25px;
+                            border-radius: 10px;
                             .content-header {
                                 @include d-flex;
                                 gap: 20px;
@@ -162,11 +179,16 @@ html {
                 }
             }
             .second-region {
+                flex-basis: 20%;
                 .content {
                     @include d-flex;
                     align-items: flex-start;
                     flex-direction: column;
                     gap: 15px;
+                    background-color: $white;
+                    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+                    padding: 25px;
+                    border-radius: 10px;
                     .content-header {
                         @include d-flex;
                         gap: 20px;
