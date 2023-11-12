@@ -107,16 +107,31 @@ html {
                                     @include d-flex;
                                     align-items: flex-start;
                                     flex-direction: column;
+                                    .name {
+                                        font-size: 15px;
+                                        color: $white;
+                                    }
+                                    .title {
+                                        color: $light-gray;
+                                    }
                                 }
                             }
                             .content-main {
                                 p {
                                     margin-bottom: 0;
+                                    color: $white;
+                                    font-weight: 600;
+                                    font-size: 25px;
+                                    line-height: normal;
                                 }
                             }
                             .content-footer {
                                 p {
                                     margin-bottom: 0;
+                                    color: $light-gray;
+                                    font-weight: 500;
+                                    font-size: 16px;
+                                    line-height: normal;
                                 }
                             }
                         }
@@ -189,16 +204,31 @@ html {
                                     @include d-flex;
                                     align-items: flex-start;
                                     flex-direction: column;
+                                    .name {
+                                        font-size: 15px;
+                                        color: $white;
+                                    }
+                                    .title {
+                                        color: $light-gray;
+                                    }
                                 }
                             }
                             .content-main {
                                 p {
                                     margin-bottom: 0;
+                                    color: $white;
+                                    font-weight: 600;
+                                    font-size: 25px;
+                                    line-height: normal;
                                 }
                             }
                             .content-footer {
                                 p {
                                     margin-bottom: 0;
+                                    color: $light-gray;
+                                    font-weight: 500;
+                                    font-size: 16px;
+                                    line-height: normal;
                                 }
                             }
                         }
