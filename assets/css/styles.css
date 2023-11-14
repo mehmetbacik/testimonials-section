@@ -166,11 +166,26 @@ html body {
   align-items: flex-start;
   flex-direction: column;
 }
+#testimonials main .regions .first-region .first-region-second-line .second-line-left .content .content-header .detail .name {
+  font-size: 15px;
+  color: hsl(219, 29%, 14%);
+}
+#testimonials main .regions .first-region .first-region-second-line .second-line-left .content .content-header .detail .title {
+  color: hsl(217, 19%, 35%);
+}
 #testimonials main .regions .first-region .first-region-second-line .second-line-left .content .content-main p {
   margin-bottom: 0;
+  color: hsl(219, 29%, 14%);
+  font-weight: 600;
+  font-size: 25px;
+  line-height: normal;
 }
 #testimonials main .regions .first-region .first-region-second-line .second-line-left .content .content-footer p {
   margin-bottom: 0;
+  color: hsl(217, 19%, 35%);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: normal;
 }
 #testimonials main .regions .first-region .first-region-second-line .second-line-right .content {
   display: flex;
@@ -252,9 +267,24 @@ html body {
   align-items: flex-start;
   flex-direction: column;
 }
+#testimonials main .regions .second-region .content .content-header .detail .name {
+  font-size: 15px;
+  color: hsl(219, 29%, 14%);
+}
+#testimonials main .regions .second-region .content .content-header .detail .title {
+  color: hsl(217, 19%, 35%);
+}
 #testimonials main .regions .second-region .content .content-main p {
   margin-bottom: 0;
+  color: hsl(219, 29%, 14%);
+  font-weight: 600;
+  font-size: 25px;
+  line-height: normal;
 }
 #testimonials main .regions .second-region .content .content-footer p {
   margin-bottom: 0;
+  color: hsl(217, 19%, 35%);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: normal;
 }/*# sourceMappingURL=styles.css.map */

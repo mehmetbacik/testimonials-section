@@ -165,16 +165,31 @@ html {
                                     @include d-flex;
                                     align-items: flex-start;
                                     flex-direction: column;
+                                    .name {
+                                        font-size: 15px;
+                                        color: $very-dark-blackish-blue;
+                                    }
+                                    .title {
+                                        color: $very-dark-grayish-blue;
+                                    }
                                 }
                             }
                             .content-main {
                                 p {
                                     margin-bottom: 0;
+                                    color: $very-dark-blackish-blue;
+                                    font-weight: 600;
+                                    font-size: 25px;
+                                    line-height: normal;
                                 }
                             }
                             .content-footer {
                                 p {
                                     margin-bottom: 0;
+                                    color: $very-dark-grayish-blue;
+                                    font-weight: 500;
+                                    font-size: 16px;
+                                    line-height: normal;
                                 }
                             }
                         }
@@ -261,16 +276,31 @@ html {
                             @include d-flex;
                             align-items: flex-start;
                             flex-direction: column;
+                            .name {
+                                font-size: 15px;
+                                color: $very-dark-blackish-blue;
+                            }
+                            .title {
+                                color: $very-dark-grayish-blue;
+                            }
                         }
                     }
                     .content-main {
                         p {
                             margin-bottom: 0;
+                            color: $very-dark-blackish-blue;
+                            font-weight: 600;
+                            font-size: 25px;
+                            line-height: normal;
                         }
                     }
                     .content-footer {
                         p {
                             margin-bottom: 0;
+                            color: $very-dark-grayish-blue;
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: normal;
                         }
                     }
                 }
