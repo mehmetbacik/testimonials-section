@@ -34,7 +34,11 @@ html {
                             align-items: flex-start;
                             flex-direction: column;
                             gap: 15px;
+                            height: 330px;
                             background-color: $moderate-violet;
+                            background-image: url(../img/bg-pattern-quotation.svg);
+                            background-repeat: no-repeat;
+                            background-position: top right;
                             box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
                             padding: 25px;
                             border-radius: 10px;
@@ -88,6 +92,7 @@ html {
                             align-items: flex-start;
                             flex-direction: column;
                             gap: 15px;
+                            height: 330px;
                             background-color: $very-dark-grayish-blue;
                             box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
                             padding: 25px;
@@ -146,6 +151,7 @@ html {
                             align-items: flex-start;
                             flex-direction: column;
                             gap: 15px;
+                            height: 330px;
                             background-color: $white;
                             box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
                             padding: 25px;
@@ -200,6 +206,7 @@ html {
                             align-items: flex-start;
                             flex-direction: column;
                             gap: 15px;
+                            height: 330px;
                             background-color: $very-dark-blackish-blue;
                             box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
                             padding: 25px;

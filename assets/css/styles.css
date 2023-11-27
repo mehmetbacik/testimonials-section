@@ -41,7 +41,11 @@ html body {
   align-items: flex-start;
   flex-direction: column;
   gap: 15px;
+  height: 330px;
   background-color: hsl(263, 55%, 52%);
+  background-image: url(../img/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: top right;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   padding: 25px;
   border-radius: 10px;
@@ -90,6 +94,7 @@ html body {
   align-items: flex-start;
   flex-direction: column;
   gap: 15px;
+  height: 330px;
   background-color: hsl(217, 19%, 35%);
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   padding: 25px;
@@ -144,6 +149,7 @@ html body {
   align-items: flex-start;
   flex-direction: column;
   gap: 15px;
+  height: 330px;
   background-color: hsl(0, 0%, 100%);
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   padding: 25px;
@@ -193,6 +199,7 @@ html body {
   align-items: flex-start;
   flex-direction: column;
   gap: 15px;
+  height: 330px;
   background-color: hsl(219, 29%, 14%);
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   padding: 25px;
