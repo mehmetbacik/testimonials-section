@@ -297,287 +297,32 @@ html body {
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1400px) {
-  #testimonials {
-    height: 100%;
-  }
-  #testimonials main .regions {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
-  #testimonials main .regions .first-region {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 30px;
-    flex-basis: 80%;
-  }
-  #testimonials main .regions .first-region .first-region-first-line {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-  }
   #testimonials main .regions .first-region .first-region-first-line .first-line-left .content {
-    display: flex;
-    align-items: center;
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 15px;
-    height: 360px;
-    background-color: hsl(263, 55%, 52%);
-    background-image: url(../img/bg-pattern-quotation.svg);
-    background-repeat: no-repeat;
-    background-position: top right;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    padding: 25px;
-    border-radius: 10px;
-  }
-  #testimonials main .regions .first-region .first-region-first-line .first-line-left .content .content-header {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-  }
-  #testimonials main .regions .first-region .first-region-first-line .first-line-left .content .content-header .image img {
-    border-radius: 100%;
-    width: 40px;
-    height: 40px;
-    border: solid 2px hsl(0, 0%, 81%);
-  }
-  #testimonials main .regions .first-region .first-region-first-line .first-line-left .content .content-header .detail {
-    display: flex;
-    align-items: center;
-    align-items: flex-start;
-    flex-direction: column;
-  }
-  #testimonials main .regions .first-region .first-region-first-line .first-line-left .content .content-header .detail .name {
-    font-size: 15px;
-    color: hsl(0, 0%, 100%);
-  }
-  #testimonials main .regions .first-region .first-region-first-line .first-line-left .content .content-header .detail .title {
-    color: hsl(0, 0%, 81%);
+    height: 365px;
   }
   #testimonials main .regions .first-region .first-region-first-line .first-line-left .content .content-main p {
-    margin-bottom: 0;
-    color: hsl(0, 0%, 100%);
-    font-weight: 600;
-    font-size: 25px;
-    line-height: normal;
-  }
-  #testimonials main .regions .first-region .first-region-first-line .first-line-left .content .content-footer p {
-    margin-bottom: 0;
-    color: hsl(0, 0%, 81%);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: normal;
+    font-size: 20px;
   }
   #testimonials main .regions .first-region .first-region-first-line .first-line-right .content {
-    display: flex;
-    align-items: center;
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 15px;
-    height: 360px;
-    background-color: hsl(217, 19%, 35%);
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    padding: 25px;
-    border-radius: 10px;
-  }
-  #testimonials main .regions .first-region .first-region-first-line .first-line-right .content .content-header {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-  }
-  #testimonials main .regions .first-region .first-region-first-line .first-line-right .content .content-header .image img {
-    border-radius: 100%;
-    width: 40px;
-    height: 40px;
-    border: solid 2px hsl(0, 0%, 81%);
-  }
-  #testimonials main .regions .first-region .first-region-first-line .first-line-right .content .content-header .detail {
-    display: flex;
-    align-items: center;
-    align-items: flex-start;
-    flex-direction: column;
-  }
-  #testimonials main .regions .first-region .first-region-first-line .first-line-right .content .content-header .detail .name {
-    font-size: 15px;
-    color: hsl(0, 0%, 100%);
-  }
-  #testimonials main .regions .first-region .first-region-first-line .first-line-right .content .content-header .detail .title {
-    color: hsl(0, 0%, 81%);
+    height: 365px;
   }
   #testimonials main .regions .first-region .first-region-first-line .first-line-right .content .content-main p {
-    margin-bottom: 0;
-    color: hsl(0, 0%, 100%);
-    font-weight: 600;
-    font-size: 25px;
-    line-height: normal;
-  }
-  #testimonials main .regions .first-region .first-region-first-line .first-line-right .content .content-footer p {
-    margin-bottom: 0;
-    color: hsl(0, 0%, 81%);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: normal;
-  }
-  #testimonials main .regions .first-region .first-region-second-line {
-    display: flex;
-    align-items: center;
-    gap: 30px;
+    font-size: 20px;
   }
   #testimonials main .regions .first-region .first-region-second-line .second-line-left .content {
-    display: flex;
-    align-items: center;
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 15px;
-    height: 360px;
-    background-color: hsl(0, 0%, 100%);
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    padding: 25px;
-    border-radius: 10px;
-  }
-  #testimonials main .regions .first-region .first-region-second-line .second-line-left .content .content-header {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-  }
-  #testimonials main .regions .first-region .first-region-second-line .second-line-left .content .content-header .image img {
-    border-radius: 100%;
-    width: 40px;
-    height: 40px;
-    border: solid 2px hsl(0, 0%, 81%);
-  }
-  #testimonials main .regions .first-region .first-region-second-line .second-line-left .content .content-header .detail {
-    display: flex;
-    align-items: center;
-    align-items: flex-start;
-    flex-direction: column;
-  }
-  #testimonials main .regions .first-region .first-region-second-line .second-line-left .content .content-header .detail .name {
-    font-size: 15px;
-    color: hsl(219, 29%, 14%);
-  }
-  #testimonials main .regions .first-region .first-region-second-line .second-line-left .content .content-header .detail .title {
-    color: hsl(217, 19%, 35%);
+    height: 365px;
   }
   #testimonials main .regions .first-region .first-region-second-line .second-line-left .content .content-main p {
-    margin-bottom: 0;
-    color: hsl(219, 29%, 14%);
-    font-weight: 600;
-    font-size: 25px;
-    line-height: normal;
-  }
-  #testimonials main .regions .first-region .first-region-second-line .second-line-left .content .content-footer p {
-    margin-bottom: 0;
-    color: hsl(217, 19%, 35%);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: normal;
+    font-size: 20px;
   }
   #testimonials main .regions .first-region .first-region-second-line .second-line-right .content {
-    display: flex;
-    align-items: center;
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 15px;
-    height: 360px;
-    background-color: hsl(219, 29%, 14%);
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    padding: 25px;
-    border-radius: 10px;
-  }
-  #testimonials main .regions .first-region .first-region-second-line .second-line-right .content .content-header {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-  }
-  #testimonials main .regions .first-region .first-region-second-line .second-line-right .content .content-header .image img {
-    border-radius: 100%;
-    width: 40px;
-    height: 40px;
-    border: solid 2px hsl(0, 0%, 81%);
-  }
-  #testimonials main .regions .first-region .first-region-second-line .second-line-right .content .content-header .detail {
-    display: flex;
-    align-items: center;
-    align-items: flex-start;
-    flex-direction: column;
-  }
-  #testimonials main .regions .first-region .first-region-second-line .second-line-right .content .content-header .detail .name {
-    font-size: 15px;
-    color: hsl(0, 0%, 100%);
-  }
-  #testimonials main .regions .first-region .first-region-second-line .second-line-right .content .content-header .detail .title {
-    color: hsl(0, 0%, 81%);
+    height: 365px;
   }
   #testimonials main .regions .first-region .first-region-second-line .second-line-right .content .content-main p {
-    margin-bottom: 0;
-    color: hsl(0, 0%, 100%);
-    font-weight: 600;
-    font-size: 25px;
-    line-height: normal;
-  }
-  #testimonials main .regions .first-region .first-region-second-line .second-line-right .content .content-footer p {
-    margin-bottom: 0;
-    color: hsl(0, 0%, 81%);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: normal;
-  }
-  #testimonials main .regions .second-region {
-    flex-basis: 20%;
-  }
-  #testimonials main .regions .second-region .content {
-    display: flex;
-    align-items: center;
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 15px;
-    background-color: hsl(0, 0%, 100%);
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    padding: 25px;
-    border-radius: 10px;
-  }
-  #testimonials main .regions .second-region .content .content-header {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-  }
-  #testimonials main .regions .second-region .content .content-header .image img {
-    border-radius: 100%;
-    width: 40px;
-    height: 40px;
-    border: solid 2px hsl(0, 0%, 81%);
-  }
-  #testimonials main .regions .second-region .content .content-header .detail {
-    display: flex;
-    align-items: center;
-    align-items: flex-start;
-    flex-direction: column;
-  }
-  #testimonials main .regions .second-region .content .content-header .detail .name {
-    font-size: 15px;
-    color: hsl(219, 29%, 14%);
-  }
-  #testimonials main .regions .second-region .content .content-header .detail .title {
-    color: hsl(217, 19%, 35%);
+    font-size: 20px;
   }
   #testimonials main .regions .second-region .content .content-main p {
-    margin-bottom: 0;
-    color: hsl(219, 29%, 14%);
-    font-weight: 600;
-    font-size: 25px;
-    line-height: normal;
-  }
-  #testimonials main .regions .second-region .content .content-footer p {
-    margin-bottom: 0;
-    color: hsl(217, 19%, 35%);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: normal;
+    font-size: 20px;
   }
 }
 @media (max-width: 425px) {
