@@ -382,7 +382,309 @@ html {
 }
 
 @media screen and (min-width: 993px) and (max-width:1200px) {
-
+    #testimonials {
+        height: 100%;
+        main {
+            .regions {
+                @include d-flex;
+                gap: 30px;
+                padding-top: 100px;
+                padding-bottom: 100px;
+                .first-region {
+                    @include d-flex;
+                    flex-direction: column;
+                    gap: 30px;
+                    flex-basis: 80%;
+                    .first-region-first-line {
+                        @include d-flex;
+                        gap: 30px;
+                        .first-line-left {
+                            .content {
+                                @include d-flex;
+                                align-items: flex-start;
+                                flex-direction: column;
+                                gap: 15px;
+                                height: 330px;
+                                background-color: $moderate-violet;
+                                background-image: url(../img/bg-pattern-quotation.svg);
+                                background-repeat: no-repeat;
+                                background-position: top right;
+                                box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+                                padding: 25px;
+                                border-radius: 10px;
+                                .content-header {
+                                    @include d-flex;
+                                    gap: 15px;
+                                    .image {
+                                        img {
+                                            border-radius: 100%;
+                                            width: 40px;
+                                            height: 40px;
+                                            border: solid 2px $light-gray;
+                                        }
+                                    }
+                                    .detail {
+                                        @include d-flex;
+                                        align-items: flex-start;
+                                        flex-direction: column;
+                                        .name {
+                                            font-size: 15px;
+                                            color: $white;
+                                        }
+                                        .title {
+                                            color: $light-gray;
+                                        }
+                                    }
+                                }
+                                .content-main {
+                                    p {
+                                        margin-bottom: 0;
+                                        color: $white;
+                                        font-weight: 600;
+                                        font-size: 25px;
+                                        line-height: normal;
+                                    }
+                                }
+                                .content-footer {
+                                    p {
+                                        margin-bottom: 0;
+                                        color: $light-gray;
+                                        font-weight: 500;
+                                        font-size: 16px;
+                                        line-height: normal;
+                                    }
+                                }
+                            }
+                        }
+                        .first-line-right {
+                            .content {
+                                @include d-flex;
+                                align-items: flex-start;
+                                flex-direction: column;
+                                gap: 15px;
+                                height: 330px;
+                                background-color: $very-dark-grayish-blue;
+                                box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+                                padding: 25px;
+                                border-radius: 10px;
+                                .content-header {
+                                    @include d-flex;
+                                    gap: 15px;
+                                    .image {
+                                        img {
+                                            border-radius: 100%;
+                                            width: 40px;
+                                            height: 40px;
+                                            border: solid 2px $light-gray;
+                                        }
+                                    }
+                                    .detail {
+                                        @include d-flex;
+                                        align-items: flex-start;
+                                        flex-direction: column;
+                                        .name {
+                                            font-size: 15px;
+                                            color: $white;
+                                        }
+                                        .title {
+                                            color: $light-gray;
+                                        }
+                                    }
+                                }
+                                .content-main {
+                                    p {
+                                        margin-bottom: 0;
+                                        color: $white;
+                                        font-weight: 600;
+                                        font-size: 25px;
+                                        line-height: normal;
+                                    }
+                                }
+                                .content-footer {
+                                    p {
+                                        margin-bottom: 0;
+                                        color: $light-gray;
+                                        font-weight: 500;
+                                        font-size: 16px;
+                                        line-height: normal;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .first-region-second-line {
+                        @include d-flex;
+                        gap: 30px;
+                        .second-line-left {
+                            .content {
+                                @include d-flex;
+                                align-items: flex-start;
+                                flex-direction: column;
+                                gap: 15px;
+                                height: 330px;
+                                background-color: $white;
+                                box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+                                padding: 25px;
+                                border-radius: 10px;
+                                .content-header {
+                                    @include d-flex;
+                                    gap: 15px;
+                                    .image {
+                                        img {
+                                            border-radius: 100%;
+                                            width: 40px;
+                                            height: 40px;
+                                            border: solid 2px $light-gray;
+                                        }
+                                    }
+                                    .detail {
+                                        @include d-flex;
+                                        align-items: flex-start;
+                                        flex-direction: column;
+                                        .name {
+                                            font-size: 15px;
+                                            color: $very-dark-blackish-blue;
+                                        }
+                                        .title {
+                                            color: $very-dark-grayish-blue;
+                                        }
+                                    }
+                                }
+                                .content-main {
+                                    p {
+                                        margin-bottom: 0;
+                                        color: $very-dark-blackish-blue;
+                                        font-weight: 600;
+                                        font-size: 25px;
+                                        line-height: normal;
+                                    }
+                                }
+                                .content-footer {
+                                    p {
+                                        margin-bottom: 0;
+                                        color: $very-dark-grayish-blue;
+                                        font-weight: 500;
+                                        font-size: 16px;
+                                        line-height: normal;
+                                    }
+                                }
+                            }
+                        }
+                        .second-line-right {
+                            .content {
+                                @include d-flex;
+                                align-items: flex-start;
+                                flex-direction: column;
+                                gap: 15px;
+                                height: 330px;
+                                background-color: $very-dark-blackish-blue;
+                                box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+                                padding: 25px;
+                                border-radius: 10px;
+                                .content-header {
+                                    @include d-flex;
+                                    gap: 15px;
+                                    .image {
+                                        img {
+                                            border-radius: 100%;
+                                            width: 40px;
+                                            height: 40px;
+                                            border: solid 2px $light-gray;
+                                        }
+                                    }
+                                    .detail {
+                                        @include d-flex;
+                                        align-items: flex-start;
+                                        flex-direction: column;
+                                        .name {
+                                            font-size: 15px;
+                                            color: $white;
+                                        }
+                                        .title {
+                                            color: $light-gray;
+                                        }
+                                    }
+                                }
+                                .content-main {
+                                    p {
+                                        margin-bottom: 0;
+                                        color: $white;
+                                        font-weight: 600;
+                                        font-size: 25px;
+                                        line-height: normal;
+                                    }
+                                }
+                                .content-footer {
+                                    p {
+                                        margin-bottom: 0;
+                                        color: $light-gray;
+                                        font-weight: 500;
+                                        font-size: 16px;
+                                        line-height: normal;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .second-region {
+                    flex-basis: 20%;
+                    .content {
+                        @include d-flex;
+                        align-items: flex-start;
+                        flex-direction: column;
+                        gap: 15px;
+                        background-color: $white;
+                        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+                        padding: 25px;
+                        border-radius: 10px;
+                        .content-header {
+                            @include d-flex;
+                            gap: 15px;
+                            .image {
+                                img {
+                                    border-radius: 100%;
+                                    width: 40px;
+                                    height: 40px;
+                                    border: solid 2px $light-gray;
+                                }
+                            }
+                            .detail {
+                                @include d-flex;
+                                align-items: flex-start;
+                                flex-direction: column;
+                                .name {
+                                    font-size: 15px;
+                                    color: $very-dark-blackish-blue;
+                                }
+                                .title {
+                                    color: $very-dark-grayish-blue;
+                                }
+                            }
+                        }
+                        .content-main {
+                            p {
+                                margin-bottom: 0;
+                                color: $very-dark-blackish-blue;
+                                font-weight: 600;
+                                font-size: 25px;
+                                line-height: normal;
+                            }
+                        }
+                        .content-footer {
+                            p {
+                                margin-bottom: 0;
+                                color: $very-dark-grayish-blue;
+                                font-weight: 500;
+                                font-size: 16px;
+                                line-height: normal;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media screen and (min-width: 769px) and (max-width:992px) {
