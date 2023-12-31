@@ -520,102 +520,111 @@ html {
     #testimonials {
         main {
             .regions {
+                flex-direction: column;
+                padding-top: 40px;
+                padding-bottom: 40px;
                 .first-region {
                     .first-region-first-line {
+                        flex-direction: column;
                         .first-line-left {
                             .content {
+                                height: auto;
                                 .content-header {
                                     .detail {
                                         .name {
-                                            font-size: 12px;
+                                            font-size: 15px;
                                         }
                                         .title {
-                                            font-size: 11px;
+                                            font-size: 13px;
                                         }
                                     }
                                 }
                                 .content-main {
                                     p {
-                                        font-size: 16px;
+                                        font-size: 25px;
                                     }
                                 }
                                 .content-footer {
                                     p {
-                                        font-size: 13px;
+                                        font-size: 16px;
                                     }
                                 }
                             }
                         }
                         .first-line-right {
                             .content {
+                                height: auto;
                                 .content-header {
                                     .detail {
                                         .name {
-                                            font-size: 12px;
+                                            font-size: 15px;
                                         }
                                         .title {
-                                            font-size: 11px;
+                                            font-size: 13px;
                                         }
                                     }
                                 }
                                 .content-main {
                                     p {
-                                        font-size: 16px;
+                                        font-size: 25px;
                                     }
                                 }
                                 .content-footer {
                                     p {
-                                        font-size: 13px;
+                                        font-size: 16px;
                                     }
                                 }
                             }
                         }
                     }
                     .first-region-second-line {
+                        flex-direction: column;
                         .second-line-left {
                             .content {
+                                height: auto;
                                 .content-header {
                                     .detail {
                                         .name {
-                                            font-size: 12px;
+                                            font-size: 15px;
                                         }
                                         .title {
-                                            font-size: 11px;
+                                            font-size: 13px;
                                         }
                                     }
                                 }
                                 .content-main {
                                     p {
-                                        font-size: 16px;
+                                        font-size: 25px;
                                     }
                                 }
                                 .content-footer {
                                     p {
-                                        font-size: 13px;
+                                        font-size: 16px;
                                     }
                                 }
                             }
                         }
                         .second-line-right {
                             .content {
+                                height: auto;
                                 .content-header {
                                     .detail {
                                         .name {
-                                            font-size: 12px;
+                                            font-size: 15px;
                                         }
                                         .title {
-                                            font-size: 11px;
+                                            font-size: 13px;
                                         }
                                     }
                                 }
                                 .content-main {
                                     p {
-                                        font-size: 16px;
+                                        font-size: 25px;
                                     }
                                 }
                                 .content-footer {
                                     p {
-                                        font-size: 13px;
+                                        font-size: 16px;
                                     }
                                 }
                             }
@@ -624,24 +633,25 @@ html {
                 }
                 .second-region {
                     .content {
+                        height: auto;
                         .content-header {
                             .detail {
                                 .name {
-                                    font-size: 12px;
+                                    font-size: 15px;
                                 }
                                 .title {
-                                    font-size: 11px;
+                                    font-size: 13px;
                                 }
                             }
                         }
                         .content-main {
                             p {
-                                font-size: 16px;
+                                font-size: 25px;
                             }
                         }
                         .content-footer {
                             p {
-                                font-size: 13px;
+                                font-size: 16px;
                             }
                         }
                     }

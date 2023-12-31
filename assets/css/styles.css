@@ -388,65 +388,91 @@ html body {
   }
 }
 @media screen and (min-width: 769px) and (max-width: 992px) {
+  #testimonials main .regions {
+    flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  #testimonials main .regions .first-region .first-region-first-line {
+    flex-direction: column;
+  }
+  #testimonials main .regions .first-region .first-region-first-line .first-line-left .content {
+    height: auto;
+  }
   #testimonials main .regions .first-region .first-region-first-line .first-line-left .content .content-header .detail .name {
-    font-size: 12px;
+    font-size: 15px;
   }
   #testimonials main .regions .first-region .first-region-first-line .first-line-left .content .content-header .detail .title {
-    font-size: 11px;
+    font-size: 13px;
   }
   #testimonials main .regions .first-region .first-region-first-line .first-line-left .content .content-main p {
-    font-size: 16px;
+    font-size: 25px;
   }
   #testimonials main .regions .first-region .first-region-first-line .first-line-left .content .content-footer p {
-    font-size: 13px;
+    font-size: 16px;
+  }
+  #testimonials main .regions .first-region .first-region-first-line .first-line-right .content {
+    height: auto;
   }
   #testimonials main .regions .first-region .first-region-first-line .first-line-right .content .content-header .detail .name {
-    font-size: 12px;
+    font-size: 15px;
   }
   #testimonials main .regions .first-region .first-region-first-line .first-line-right .content .content-header .detail .title {
-    font-size: 11px;
+    font-size: 13px;
   }
   #testimonials main .regions .first-region .first-region-first-line .first-line-right .content .content-main p {
-    font-size: 16px;
+    font-size: 25px;
   }
   #testimonials main .regions .first-region .first-region-first-line .first-line-right .content .content-footer p {
-    font-size: 13px;
+    font-size: 16px;
+  }
+  #testimonials main .regions .first-region .first-region-second-line {
+    flex-direction: column;
+  }
+  #testimonials main .regions .first-region .first-region-second-line .second-line-left .content {
+    height: auto;
   }
   #testimonials main .regions .first-region .first-region-second-line .second-line-left .content .content-header .detail .name {
-    font-size: 12px;
+    font-size: 15px;
   }
   #testimonials main .regions .first-region .first-region-second-line .second-line-left .content .content-header .detail .title {
-    font-size: 11px;
+    font-size: 13px;
   }
   #testimonials main .regions .first-region .first-region-second-line .second-line-left .content .content-main p {
-    font-size: 16px;
+    font-size: 25px;
   }
   #testimonials main .regions .first-region .first-region-second-line .second-line-left .content .content-footer p {
-    font-size: 13px;
+    font-size: 16px;
+  }
+  #testimonials main .regions .first-region .first-region-second-line .second-line-right .content {
+    height: auto;
   }
   #testimonials main .regions .first-region .first-region-second-line .second-line-right .content .content-header .detail .name {
-    font-size: 12px;
+    font-size: 15px;
   }
   #testimonials main .regions .first-region .first-region-second-line .second-line-right .content .content-header .detail .title {
-    font-size: 11px;
+    font-size: 13px;
   }
   #testimonials main .regions .first-region .first-region-second-line .second-line-right .content .content-main p {
-    font-size: 16px;
+    font-size: 25px;
   }
   #testimonials main .regions .first-region .first-region-second-line .second-line-right .content .content-footer p {
-    font-size: 13px;
-  }
-  #testimonials main .regions .second-region .content .content-header .detail .name {
-    font-size: 12px;
-  }
-  #testimonials main .regions .second-region .content .content-header .detail .title {
-    font-size: 11px;
-  }
-  #testimonials main .regions .second-region .content .content-main p {
     font-size: 16px;
   }
-  #testimonials main .regions .second-region .content .content-footer p {
+  #testimonials main .regions .second-region .content {
+    height: auto;
+  }
+  #testimonials main .regions .second-region .content .content-header .detail .name {
+    font-size: 15px;
+  }
+  #testimonials main .regions .second-region .content .content-header .detail .title {
     font-size: 13px;
+  }
+  #testimonials main .regions .second-region .content .content-main p {
+    font-size: 25px;
+  }
+  #testimonials main .regions .second-region .content .content-footer p {
+    font-size: 16px;
   }
 }
 @media (max-width: 425px) {
