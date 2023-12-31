@@ -39,7 +39,7 @@ html {
                             background-color: $moderate-violet;
                             background-image: url(../img/bg-pattern-quotation.svg);
                             background-repeat: no-repeat;
-                            background-position: top right;
+                            background-position: calc(100% - 45px) 10px;
                             box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
                             padding: 25px;
                             border-radius: 10px;
@@ -674,6 +674,7 @@ html {
                         .first-line-left {
                             .content {
                                 height: auto;
+                                background-position: calc(100% - 20px) 10px;
                                 .content-header {
                                     .detail {
                                         .name {
@@ -809,9 +810,11 @@ html {
 @media (max-width: 425px) {
     #testimonials {
         main {
+            padding-left: 25px;
+            padding-right: 25px;
             .regions {
-                padding-top: 50px;
-                padding-bottom: 50px;
+                padding-top: 25px;
+                padding-bottom: 25px;
                 .first-region {
                     flex-direction: column;
                     .first-region-first-line {

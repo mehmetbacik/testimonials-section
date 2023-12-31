@@ -45,7 +45,7 @@ html body {
   background-color: hsl(263, 55%, 52%);
   background-image: url(../img/bg-pattern-quotation.svg);
   background-repeat: no-repeat;
-  background-position: top right;
+  background-position: calc(100% - 45px) 10px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   padding: 25px;
   border-radius: 10px;
@@ -486,6 +486,7 @@ html body {
   }
   #testimonials main .regions .first-region .first-region-first-line .first-line-left .content {
     height: auto;
+    background-position: calc(100% - 20px) 10px;
   }
   #testimonials main .regions .first-region .first-region-first-line .first-line-left .content .content-header .detail .name {
     font-size: 15px;
@@ -564,9 +565,13 @@ html body {
   }
 }
 @media (max-width: 425px) {
+  #testimonials main {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
   #testimonials main .regions {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
   }
   #testimonials main .regions .first-region {
     flex-direction: column;
